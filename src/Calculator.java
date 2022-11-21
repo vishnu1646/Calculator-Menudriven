@@ -11,7 +11,7 @@ public class Calculator {
         int a = scan.nextInt();
         switch (a){
             case 1:
-                System.out.println("Enter the Number : ");
+                System.out.println("Enter two Number : ");
                 Scanner sc1 = new Scanner(System.in);
                 Scanner sc2 = new Scanner(System.in);
                 System.out.println("Sum is "+add(sc1.nextInt(),sc2.nextInt()));
